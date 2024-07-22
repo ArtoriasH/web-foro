@@ -1,0 +1,195 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Nov 22, 2022, 10:15:09 PM
+    Author     : humbe
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    align-items: center;
+    justify-content: center;
+    background: gray;
+}
+
+.login{
+ display: flex;
+ justify-content: center;
+}
+
+.login__content{
+    margin: 10% 10%;
+    background-color: white;    
+    width: 20%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 10%;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px #262525;
+}
+
+.login input{
+    
+    border-radius: 4px;
+}
+
+.login a{
+    text-decoration: none;
+}
+
+.login__content-campo{
+    margin: 10px;
+}
+
+#btnCampo{
+    width: 75%;
+    height: 50px;
+    background-color: #349eeb;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    margin-right: 15%;
+}
+
+.login img{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+
+.register{
+    display: flex;
+    justify-content: center;
+}
+
+.register-content{
+    margin: 10% 10%;
+    width: 20%;
+    padding: 20px;
+    border-radius: 12px;
+    background: white;
+}
+
+.register h1{
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.register form{
+    font-size: 20px;
+}
+
+.register form .formgroup{
+    margin-bottom: 12px;
+}
+
+.register form input[type="submit"]{
+    font-size: 20px;
+    margin-top: 15px;
+    background-color: #349eeb;
+    border: none;
+}
+
+input[type='file'] {
+    color: transparent;
+    padding-bottom: 5px;
+    align-items: center;
+  }
+
+
+.col-75 input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  margin-left: 85%;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  float: right;
+  width: 150px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+ 
+ .nuevaPubli .container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-top: 2%;
+  margin-bottom: 20%;   
+}
+
+.nuevaPubli h1{
+    text-align: center;
+    color: aqua;
+    font-size: 30px;
+    margin-top: 2%;
+}
+
+.container .publiSup{
+  height: 10%;
+  width: 100%;    
+  border: 1px solid gray; 
+  color: white; 
+}
+
+.publiSup .btn{
+    height: 50px;
+    width: 33%;
+}
+
+
+
+ .col-75 {
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;   
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.footbar{
+    background-color: #212529;
+    height: 20vh;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
